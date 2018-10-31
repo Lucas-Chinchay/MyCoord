@@ -10,3 +10,9 @@ F:\MyCords\MyCords\obj\Debug\MyCords.pdb
 F:\lucas\MyCoord\MyCords\MyCords\bin\Debug\MyCords.exe.config
 F:\lucas\MyCoord\MyCords\MyCords\obj\Debug\MyCords.exe
 F:\lucas\MyCoord\MyCords\MyCords\obj\Debug\MyCords.pdb
+F:\MyCoord\MyCords\MyCords\bin\Debug\MyCords.exe.config
+F:\MyCoord\MyCords\MyCords\obj\Debug\MyCords.exe
+F:\MyCoord\MyCords\MyCords\obj\Debug\MyCords.pdb
+F:\MyCoord\MyCords\MyCords\bin\Debug\MyCords.exe
+F:\MyCoord\MyCords\MyCords\bin\Debug\MyCords.pdb
+F:\MyCoord\MyCords\MyCords\obj\Debug\MyCords.csprojResolveAssemblyReference.cache

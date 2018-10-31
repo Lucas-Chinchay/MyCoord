@@ -20,7 +20,7 @@ namespace MyCords
 
             Console.WriteLine("Hola, ingresa coordenadas (latitud, longitud) o x para salir:");
             Console.WriteLine("Ejemplo: 12.3444,14.2333");
-            List<Coord> cordinadas = new List<Coord>();
+            List<Coord> coordenadas = new List<Coord>();
             while (continuar)
             {
                 String entrar = Console.ReadLine();
@@ -36,18 +36,18 @@ namespace MyCords
                 // todo lo que es correcto
                 Double latitud;
                 Double longitud;
-                Coord mi_cordinada = new Coord()
+                Coord mi_coordenada = new Coord()
                 {
                     latitud = Double.TryParse(entrar.Split(',')[0], out latitud) ? latitud:0,
                     longitud = Double.TryParse(entrar.Split(',')[1], out longitud) ? longitud : 0,
                 };
 
-                cordinadas.Add(mi_cordinada);
+                coordenadas.Add(mi_coordenada);
 
 
             }
 
-            Console.WriteLine("A dios... tu has ingresado: {0} coordenadas", cordinadas.Count);
+            Console.WriteLine("Adios... tu has ingresado: {0} coordenadas", coordenadas.Count);
             Console.ReadKey();
         }
     }
