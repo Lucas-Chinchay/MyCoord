@@ -23,31 +23,31 @@ namespace MyCords
             List<Coord> cordinadas = new List<Coord>();
             while (continuar)
             {
-                String input = Console.ReadLine();
-                if (input.ToLower().Equals("x"))
+                String entrar = Console.ReadLine();
+                if (entrar.ToLower().Equals("x"))
                 {
                     continuar = false;
                     continue;
                 }
-                if (input.Split(',').Length != 2)
+                if (entrar.Split(',').Length != 2)
                 {
                     continue;
                 }
                 // todo lo que es correcto
                 Double latitud;
                 Double longitud;
-                Coord mycoord = new Coord()
+                Coord mi_cordinada = new Coord()
                 {
-                    latitud = Double.TryParse(input.Split(',')[0], out latitud) ? latitud:0,
-                    longitud = Double.TryParse(input.Split(',')[1], out longitud) ? longitud : 0,
+                    latitud = Double.TryParse(entrar.Split(',')[0], out latitud) ? latitud:0,
+                    longitud = Double.TryParse(entrar.Split(',')[1], out longitud) ? longitud : 0,
                 };
 
-                cordinadas.Add(mycoord);
+                cordinadas.Add(mi_cordinada);
 
 
             }
 
-            Console.WriteLine("Good bye... tu has ingresado: {0} coordenadas", cordinadas.Count);
+            Console.WriteLine("A dios... tu has ingresado: {0} coordenadas", cordinadas.Count);
             Console.ReadKey();
         }
     }
