@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyCords
+namespace Mis_Coordenadas //MyCords
 {
-    public class Coord
+    public class Coordenada //Coord
     {
         public Double latitud { get; set; }
         public Double longitud { get; set; }
@@ -17,10 +17,11 @@ namespace MyCords
         static void Main(string[] args)
         {
             bool continuar = true;
-
-            Console.WriteLine("Hola, ingresa coordenadas (latitud, longitud) o x para salir:");
+            Console.WriteLine(" -----------------------------------------------------------------");
+            Console.WriteLine("☺ Hola ☺, ingrese coordenadas (latitud, longitud) o x para salir:");
+            Console.WriteLine(" -----------------------------------------------------------------");
             Console.WriteLine("Ejemplo: 12.3444,14.2333");
-            List<Coord> cordinadas = new List<Coord>();
+            List<Coordenada> coordenadas = new List<Coordenada>();
             while (continuar)
             {
                 String entrar = Console.ReadLine();
@@ -36,18 +37,18 @@ namespace MyCords
                 // todo lo que es correcto
                 Double latitud;
                 Double longitud;
-                Coord mi_cordinada = new Coord()
+                Coordenada mi_coordenada = new Coordenada()
                 {
                     latitud = Double.TryParse(entrar.Split(',')[0], out latitud) ? latitud:0,
                     longitud = Double.TryParse(entrar.Split(',')[1], out longitud) ? longitud : 0,
                 };
 
-                cordinadas.Add(mi_cordinada);
+                coordenadas.Add(mi_coordenada);
 
 
             }
 
-            Console.WriteLine("A dios... tu has ingresado: {0} coordenadas", cordinadas.Count);
+            Console.WriteLine("Hasta luego... tu has ingresado: {0} coordenadas", coordenadas.Count);
             Console.ReadKey();
         }
     }

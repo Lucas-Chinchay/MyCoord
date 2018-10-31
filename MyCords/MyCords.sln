@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCords", "MyCords\MyCords.csproj", "{E91D2B40-BA0E-4A57-9CAE-7E38718C35B1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mis_Coordenadas", "MyCords\Mis_Coordenadas.csproj", "{E91D2B40-BA0E-4A57-9CAE-7E38718C35B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

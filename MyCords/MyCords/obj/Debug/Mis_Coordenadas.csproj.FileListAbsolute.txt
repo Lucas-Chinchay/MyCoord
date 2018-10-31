@@ -1,0 +1,6 @@
+F:\junior\MyCoord\MyCords\MyCords\bin\Debug\MyCords.exe.config
+F:\junior\MyCoord\MyCords\MyCords\bin\Debug\MyCords.exe
+F:\junior\MyCoord\MyCords\MyCords\bin\Debug\MyCords.pdb
+F:\junior\MyCoord\MyCords\MyCords\obj\Debug\Mis_Coordenadas.csprojResolveAssemblyReference.cache
+F:\junior\MyCoord\MyCords\MyCords\obj\Debug\MyCords.exe
+F:\junior\MyCoord\MyCords\MyCords\obj\Debug\MyCords.pdb

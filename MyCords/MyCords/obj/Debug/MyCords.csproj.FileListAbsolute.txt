@@ -16,3 +16,6 @@ F:\lucas\MyCoord\MyCords\MyCords\bin\Debug\MyCords.exe.config
 F:\lucas\MyCoord\MyCords\MyCords\obj\Debug\MyCords.exe
 F:\lucas\MyCoord\MyCords\MyCords\obj\Debug\MyCords.pdb
 >>>>>>> c8b930f36ebcae8ca23b919454ac499eaa828330
+F:\junior\MyCoord\MyCords\MyCords\bin\Debug\MyCords.exe.config
+F:\junior\MyCoord\MyCords\MyCords\obj\Debug\MyCords.exe
+F:\junior\MyCoord\MyCords\MyCords\obj\Debug\MyCords.pdb
