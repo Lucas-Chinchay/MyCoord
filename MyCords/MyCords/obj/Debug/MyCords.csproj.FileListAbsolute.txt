@@ -7,3 +7,6 @@ F:\dev\MyCords\MyCords\obj\Debug\MyCords.pdb
 F:\MyCords\MyCords\bin\Debug\MyCords.exe.config
 F:\MyCords\MyCords\obj\Debug\MyCords.exe
 F:\MyCords\MyCords\obj\Debug\MyCords.pdb
+F:\MyCoord\MyCords\MyCords\bin\Debug\MyCords.exe.config
+F:\MyCoord\MyCords\MyCords\obj\Debug\MyCords.exe
+F:\MyCoord\MyCords\MyCords\obj\Debug\MyCords.pdb
